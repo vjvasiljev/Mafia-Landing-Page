@@ -6,25 +6,52 @@
 }
 
 body {
-  background-color: var(--dark-red);
+  background-color: var(--black);
 }
 
-.navbar, .card-body {
-  background-color: var(--white);
+.navbar {
+  background-color: var(--dark-red);
+}
+.navbar-brand{
+  color: black;
+}
+.navbar-brand:hover {
+  color: white;
+}
+.card-body {
+  background-color:black;
+  color: white;
+  border-style: none;
 }
 .navbar {
   margin-bottom: 10px;
 }
+
+.nav-link {
+  color: white;
+}
+.nav-link:hover {
+  color: black;
+}
 /* .card-img-top {
   padding: 5px;
 } */
-
+.card-img-top {
+  border: solid 3px white;
+  border-radius: 10px;
+}
 .card {
   margin: 10px;
+  border-style: none;
 }
 
 .card-text {
   line-height: 1em;
+}
+
+.btn {
+  margin-top: 15px;
+  background-color: var(--dark-red);
 }
 
 div {
