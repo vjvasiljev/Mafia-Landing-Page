@@ -27,6 +27,14 @@ body {
   margin-bottom: 10px;
 }
 
+.navbar-toggler {
+  background-color: black;
+}
+
+.navbar-toggler-icon {
+  background-color: white;
+}
+
 .nav-link {
   color: white;
 }
@@ -50,7 +58,7 @@ body {
 }
 
 .btn {
-  margin-top: 15px;
+  margin: 15px 0;
   background-color: var(--dark-red);
 }
 
